@@ -1,0 +1,33 @@
+/* styles.css */
+
+/* Examples of different selector types */
+
+* {
+    text-align: center;
+}
+/* The "*" indicates universal selector, it effects everything. In this example it pushes everything to the center */
+
+h1 {
+    color: blue;
+}
+/* This is a "Type" aka "Element" selector. It effects only those elements specified. In this example al H1 elements will be turned blue. */
+
+.paragraph {
+    font-size: 20px;
+    font-family: "Arial", Helvetica, sans-serif;
+}
+/* This is a "Class" selector. It effects only those classes specified. In this example all specified classes will have font size increased to 20 and font changed to arial  */
+
+#orange {
+    color: orange;
+}
+/* This is an "ID" selector. It effects only those ID's specified. Recommended not to use. In this example all specified ID's will have font color changed to orange */
+
+.class1 {
+    font-weight: bold;
+}
+
+.class2 {
+    color: purple;
+    font-size: 16px;
+}
